@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "MakD10mWOGXYodZdJvmzFqBjT0WNg/u2P59k8ti7qYCq4bCzSDMIynFcWFtiKrJFoRs7DAtQVdlPifhnw1g9Rw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Ivo\\Documents\\Projetos C#\\Manager\\src\\Manager.Domain\\Manager.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Ivo\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\Ivo\\.nuget\\packages\\fluentvalidation\\11.6.0\\fluentvalidation.11.6.0.nupkg.sha512",
+    "C:\\Users\\Ivo\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}

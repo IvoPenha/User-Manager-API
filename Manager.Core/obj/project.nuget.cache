@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "xLPn8n+4NNoYRMWkD1DMIM1yElMsQmRSSXPyVuoz7O3RW2n8s6fM/8Zjbdov37Ar83T8pjktHElh/j821Q/gSw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Ivo\\Documents\\Projetos C#\\Manager\\src\\Manager.Core\\Manager.Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Ivo\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\Ivo\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}
