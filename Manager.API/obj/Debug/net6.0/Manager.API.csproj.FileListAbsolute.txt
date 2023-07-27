@@ -68,3 +68,5 @@ C:\Users\Ivo\Documents\Projetos C#\Manager\src\Manager.API\bin\Debug\net6.0\Mana
 C:\Users\Ivo\Documents\Projetos C#\Manager\src\Manager.API\bin\Debug\net6.0\Manager.Infra.pdb
 C:\Users\Ivo\Documents\Projetos C#\Manager\src\Manager.API\bin\Debug\net6.0\Manager.Services.pdb
 C:\Users\Ivo\Documents\Projetos C#\Manager\src\Manager.API\bin\Debug\net6.0\Manager.Domain.pdb
+C:\Users\Ivo\Documents\Projetos C#\Manager\src\Manager.API\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Ivo\Documents\Projetos C#\Manager\src\Manager.API\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll

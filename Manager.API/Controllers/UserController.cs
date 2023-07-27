@@ -5,6 +5,7 @@ using Manager.Core.Exceptions;
 using Manager.Domain.Entities;
 using Manager.Services.DTO;
 using Manager.Services.Interfaces;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 
@@ -24,6 +25,8 @@ public class UserController : ControllerBase
     private readonly IMapper _mapper;
 
     [HttpPost]
+    [Authorize]
+    
     [Route("/api/v1/users/create")]
     public async Task<IActionResult> Create([FromBody] CreateUserViewModel userViewModel)
     {
@@ -51,6 +54,7 @@ public class UserController : ControllerBase
     }
 
     [HttpPut]
+    [Authorize]
     [Route("/api/v1/users/update")]
     public async Task<IActionResult> Update([FromBody] UpdateViewModel userViewModel)
     {
@@ -76,6 +80,7 @@ public class UserController : ControllerBase
     }
 
     [HttpGet]
+    [Authorize]
     [Route("/api/v1/users/{id}")]
     public async Task<IActionResult> Get(long id)
     {
@@ -100,6 +105,7 @@ public class UserController : ControllerBase
     }
 
     [HttpGet]
+    [Authorize]
     [Route("/api/v1/users/")]
     public async Task<IActionResult> Get()
     {
@@ -125,6 +131,7 @@ public class UserController : ControllerBase
     
     
     [HttpDelete]
+    [Authorize]
     [Route("/api/v1/users/{id}")]
     public async Task<IActionResult> Remove([FromRoute] long id)
     {
@@ -150,6 +157,7 @@ public class UserController : ControllerBase
     
         
     [HttpGet]
+    [Authorize]
     [Route("/api/v1/users/get-by-email")]
     public async Task<IActionResult> GetByEmail([FromQuery] string email)
     {
@@ -174,6 +182,7 @@ public class UserController : ControllerBase
     }
         
     [HttpGet]
+    [Authorize]
     [Route("/api/v1/users/search-by-email")]
     public async Task<IActionResult> SearchByEmail([FromQuery] string email)
     {
@@ -198,6 +207,7 @@ public class UserController : ControllerBase
     }
         
     [HttpGet]
+    [Authorize]
     [Route("/api/v1/users/search-by-name")]
     public async Task<IActionResult> SearchByName([FromQuery] string name)
     {
